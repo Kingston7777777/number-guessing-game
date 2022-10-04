@@ -35,9 +35,9 @@ body{
 
 h1{
     border: 1px solid;
-    font-size: 30px;  
+    font-size: 25px;  
     border-bottom-style: solid;
-    width: 400px;
+    width: 300px;
     text-align: center; 
     text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
     background-color: black; 
@@ -53,179 +53,367 @@ h1{
     50% {transform: scale(0.5,0.5);}
 }
 
-@media (max-width: 1200px){/*Desktop laptop-992, Tablet-768, mobile-576*/
+
+@media (max-width: 771px){
     #pick{
         font-family: sans-serif;
         font-style: normal;
         font-weight: bold; 
-        font-size: 28px;  
+        font-size: 13px;  
         position: relative;
-        left: 280px;  
+        left: 200px;  
     }
     #guess{
         position: relative;
-        left: 280px;
-        font-size: 24px;
+        left: 160px;
+        font-size: 13px;
           
     }
     #enter{
         position: relative;
-        left: 280px;
+        left: 160px;
         font-family: sans-serif;
         font-style: normal;
         font-weight: bold; 
-        font-size: 24px;  
+        font-size: 13px;  
     }
     #submit{
         position: relative;
-        left: 280px;
+        left: 160px;
         font-family: sans-serif;
         font-style: normal;
         font-weight: bold; 
-        font-size: 24px;  
+        font-size: 13px;  
     }
     
     h1{
         border: 1px solid;
-        font-size: 30px;  
+        font-size: 15px;  
         border-bottom-style: solid;
-        width: 400px;
+        width: 170px;
         text-align: center; 
-        text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
+        text-shadow: 0px 0px 0px red, 0px 0px 0px yellow; 
         background-color: black; 
         position: relative;
-        left: 280px;
-    }    
+        left: 200px;
+        color: aqua;
+    }
+    
 }
-@media (max-width: 992px){
+
+@media (max-width: 613px){
     #pick{
         font-family: sans-serif;
         font-style: normal;
         font-weight: bold; 
-        font-size: 22px;  
+        font-size: 10px;  
         position: relative;
-        left: 260px;  
+        left: 230px;  
     }
     #guess{
-        position: relative;
-        left: 260px;
-        font-size: 22px;
-          
-    }
-    #enter{
-        position: relative;
-        left: 260px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 22px;  
-    }
-    #submit{
-        position: relative;
-        left: 260px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 22px;  
-    }
-    
-    h1{
-        border: 1px solid;
-        font-size: 30px;  
-        border-bottom-style: solid;
-        width: 400px;
-        text-align: center; 
-        text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
-        background-color: black; 
-        position: relative;
-        left: 280px;
-    }    
-}
-@media (max-width: 768px){
-    #pick{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 18px;  
-        position: relative;
-        left: 240px;  
-    }
-    #guess{
-        position: relative;
-        left: 240px;
-        font-size: 18px;
-          
-    }
-    #enter{
-        position: relative;
-        left: 240px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 18px;  
-    }
-    #submit{
-        position: relative;
-        left: 240px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 18px;  
-    }
-    
-    h1{
-        border: 1px solid;
-        font-size: 20px;  
-        border-bottom-style: solid;
-        width: 240px;
-        text-align: center; 
-        text-shadow: 0px -2px 2px red, 0px 2px 2px yellow; 
-        background-color: black; 
-        position: relative;
-        left: 240px;
-    }  
-}
-@media (max-width: 576px){
-    #pick{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 15px;  
-        position: relative;
-        left: 170px;  
-    }
-    #guess{
-        position: relative;
-        left: 130px;
-        font-size: 15px;
-          
-    }
-    #enter{
-        position: relative;
-        left: 130px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 15px;  
-    }
-    #submit{
-        position: relative;
-        left: 130px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 15px;  
-    }
-    
-    h1{
-        border: 1px solid;
-        font-size: 15px;  
-        border-bottom-style: solid;
-        width: 190px;
-        text-align: center; 
-        text-shadow: 0px -2px 2px red, 0px 2px 2px yellow; 
-        background-color: black; 
         position: relative;
         left: 170px;
+        font-size: 10px;
+          
     }
+    #enter{
+        position: relative;
+        left: 170px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 10px;  
+    }
+    #submit{
+        position: relative;
+        left: 170px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 10px;  
+    }
+    
+    h1{
+        border: 1px solid;
+        font-size: 15px;  
+        border-bottom-style: solid;
+        width: 170px;
+        text-align: center; 
+        text-shadow: 0px 0px 0px red, 0px 0px 0px yellow; 
+        background-color: black; 
+        position: relative;
+        left: 200px;
+        color: aqua;
+    }
+    
+}
+
+
+@media (max-width: 537px){
+    #pick{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 8px;  
+        position: relative;
+        left: 180px;  
+    }
+    #guess{
+        position: relative;
+        left: 130px;
+        font-size: 8px;
+          
+    }
+    #enter{
+        position: relative;
+        left: 130px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 8px;  
+    }
+    #submit{
+        position: relative;
+        left: 130px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 8px;  
+    }
+    
+    h1{
+        visibility: hidden;
+    }
+    
+}
+
+
+@media (max-width: 403px){
+    #pick{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 6px;  
+        position: relative;
+        left: 130px;  
+    }
+    #guess{
+        position: relative;
+        left: 100px;
+        font-size: 6px;
+          
+    }
+    #enter{
+        position: relative;
+        left: 100px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 6px;  
+    }
+    #submit{
+        position: relative;
+        left: 100px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 6px;  
+    }
+    
+    h1{
+        visibility: hidden;
+    }
+    
+}
+
+
+@media (max-width: 311px){
+    #pick{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 6px;  
+        position: relative;
+        left: 100px;  
+    }
+    #guess{
+        position: relative;
+        left: 70px;
+        font-size: 6px;
+          
+    }
+    #enter{
+        position: relative;
+        left: 70px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 6px;  
+    }
+    #submit{
+        position: relative;
+        left: 70px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 6px;  
+    }
+    
+    h1{
+        visibility: hidden;
+    }
+    
+}
+
+@media (max-width: 283px){
+    #pick{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 6px;  
+        position: relative;
+        left: 80px;  
+    }
+    #guess{
+        position: relative;
+        left: 50px;
+        font-size: 6px;
+          
+    }
+    #enter{
+        position: relative;
+        left: 50px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 6px;  
+    }
+    #submit{
+        position: relative;
+        left: 50px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 6px;  
+    }
+    
+    h1{
+        visibility: hidden;
+    }
+    
+}
+
+@media (max-width: 251px){
+    #pick{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 6px;  
+        position: relative;
+        left: 60px;  
+    }
+    #guess{
+        position: relative;
+        left: 30px;
+        font-size: 6px;
+          
+    }
+    #enter{
+        position: relative;
+        left: 30px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 6px;  
+    }
+    #submit{
+        position: relative;
+        left: 30px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 6px;  
+    }
+    
+    h1{
+        visibility: hidden;
+    }
+    
+}
+
+
+@media (max-width: 195px){
+    #pick{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 4px;  
+        position: relative;
+        left: 40px;  
+    }
+    #guess{
+        position: relative;
+        left: 10px;
+        font-size: 4px;
+          
+    }
+    #enter{
+        position: relative;
+        left: 10px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 4px;  
+    }
+    #submit{
+        position: relative;
+        left: 10px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 4px;  
+    }
+    
+    h1{
+        visibility: hidden;
+    }
+    
+}
+
+@media (max-width: 143px){
+    #pick{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 2px;  
+        position: relative;
+        left: 40px;  
+    }
+    #guess{
+        position: relative;
+        left: 10px;
+        font-size: 2px;
+          
+    }
+    #enter{
+        position: relative;
+        left: 10px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 2px;  
+    }
+    #submit{
+        position: relative;
+        left: 10px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 2px;  
+    }
+    
+    h1{
+        visibility: hidden;
+    }
+    
 }
