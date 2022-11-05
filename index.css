@@ -1,6 +1,7 @@
 body{
     background-color: black;
-    color: white;    
+    color: white;
+    overflow: hidden;    
 }
 #pick{
     font-family: sans-serif;
@@ -54,7 +55,7 @@ h1{
 }
 
 
-@media (max-width: 771px){
+@media (max-width: 775px){
     #pick{
         font-family: sans-serif;
         font-style: normal;
